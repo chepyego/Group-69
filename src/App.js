@@ -1,3 +1,4 @@
+import {BrowserRouter as Router,Routes,Route,} from "react-router-dom";
 import './App.css';
 // import 'daisyui/dist/daisyui.css'
 import Header from './components/Header';
@@ -5,11 +6,15 @@ import Header from './components/Header';
 
 function App() {
   return (
-    <div className='bg-gray-400'>
-      
-         <Header/>
-        
-    </div>
+    <Router>
+      <Header/>
+      <main>
+        This is the main section
+      </main>
+     
+
+    </Router>
+    
   );
 }
 
