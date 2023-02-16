@@ -10,20 +10,20 @@ export default function Header() {
      <nav className='navbar bg-gray-100 shadow-lg py-4 w-screen'>
       <div class="container mx-auto">
          <ul className='flex items-center gap-x-6'>
-          <li className='tracking-wide font-sans text-xl mr-96 ml-20'>
-            <Link to='/'><span className='text-4xl font-bold'>W</span>ise <span className='font-bold text-4xl'>L</span>edger</Link>
+          <li className='tracking-wide font-sans text-xl mr-96 ml-20 nav-text'>
+            <Link to='/home'><span className='text-4xl font-bold'>W</span>ise <span className='font-bold text-4xl'>L</span>edger</Link>
           </li>
           <li>
-            <Link to='' className='font-bold font-sans text-neutral-700'>Features 
+            <Link to='/features' className='font-bold font-sans nav-text'>Features 
             </Link>
           </li>
           <li>
-            <Link to='' className='font-bold font-sans text-neutral-700'>About</Link>
+            <Link to='/about' className='font-bold font-sans nav-text'>About</Link>
           </li>
           <li>
-            <Link to='/blog' className='font-bold font-sans text-neutral-700 '>Blog</Link>
+            <Link to='/blog' className='font-bold font-sans nav-text  '>Blog</Link>
           </li>
-          <li className=' py-2.5 px-8 nav-button text-white  ml-20 rounded-lg'>
+          <li className='font-sans font-bold py-2.5 px-8 nav-button text-white  ml-20 rounded-lg'>
             <Link to=''>Get App</Link>
           </li>
          </ul>
@@ -32,4 +32,7 @@ export default function Header() {
        
      </nav>
   )
+}
+Header.defaultProps = {
+
 }

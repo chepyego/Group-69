@@ -1,3 +1,11 @@
 .nav-button{
-    background: #5664AA;;
+    background: #5664aa;
+   }
+   .nav-text{
+    color: #1A1E33;
+
+   }
+   .top-section {
+    height: 747px;
+    background: #ABB9FF;
    }
