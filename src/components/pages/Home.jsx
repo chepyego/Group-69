@@ -1,3 +1,4 @@
+import HowWiseLegerHelp from '../HowWiseLegerHelp';
 import AboutWiseLeger from '../AboutWiseLeger';
 import {FaGooglePlay} from 'react-icons/fa'
 import {AiFillApple} from 'react-icons/ai'
@@ -35,6 +36,8 @@ export default function Home() {
            <img className='mb-4'src={bunner} alt="phone pictures" />
         </div>
         <AboutWiseLeger/>
+        <HowWiseLegerHelp/>
+        
      
       
     </div>

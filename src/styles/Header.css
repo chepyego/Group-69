@@ -5,7 +5,18 @@
     color: #1A1E33;
 
    }
+   .secondary-text-color{
+    color: #5664AA;
+
+   }
+   .primary-text-color {
+    color: #2B3255;
+
+   }
    .top-section {
     height: 747px;
     background: #ABB9FF;
+   }
+   .primary-back {
+    background: #E6EAFF;
    }
