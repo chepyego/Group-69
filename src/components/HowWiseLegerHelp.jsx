@@ -24,14 +24,14 @@ function HowWiseLegerHelp() {
                   <div className='mt-52'>
                     <h6 className='text-4xl primary-text-color mb-6'>Seamless Invoicing</h6>
                     <p className='  secondary-text-color text-2xl'>Avoid bad debt, get paid on time. Create, customise and send invoice in a click. WiseLedger is here to make it happen.</p>
-                    <button className='mt-6 nav-button rounded-lg text-white py-2.5 px-10'>Get started</button>
+                    <button className='mt-6  mb-44 nav-button rounded-lg text-white py-2.5 px-10'>Get started</button>
 
                   </div>
 
                   <div className='mt-52'>
                     <h6 className='text-4xl primary-text-color mb-6'>Business growth made easy</h6>
                     <p className='   secondary-text-color text-2xl'>Get a clear record of your business peformance in a glance to help measure your business growth. Get free access to a consultant once every month..</p>
-                    <button className='mt-6 nav-button rounded-lg text-white py-2.5 px-10'>Get started</button>
+                    <button className='mt-6 mb-44 nav-button rounded-lg text-white py-2.5 px-10'>Get started</button>
 
                   </div>
 

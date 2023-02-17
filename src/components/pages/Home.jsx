@@ -1,3 +1,4 @@
+import CustomersView from '../CustomersView';
 import HowWiseLegerHelp from '../HowWiseLegerHelp';
 import AboutWiseLeger from '../AboutWiseLeger';
 import {FaGooglePlay} from 'react-icons/fa'
@@ -37,6 +38,7 @@ export default function Home() {
         </div>
         <AboutWiseLeger/>
         <HowWiseLegerHelp/>
+        <CustomersView/>
         
      
       
