@@ -11,7 +11,7 @@ export default function Header() {
       <div class="container mx-auto">
          <ul className='flex items-center gap-x-6'>
           <li className='tracking-wide font-sans text-xl mr-96 ml-20 nav-text'>
-            <Link to='/Home'><span className='text-4xl font-bold'>W</span>ise <span className='font-bold text-4xl'>L</span>edger</Link>
+            <Link to='/'><span className='text-4xl font-bold'>W</span>ise <span className='font-bold text-4xl'>L</span>edger</Link>
           </li>
           <li>
             <Link to='/features' className='font-bold font-sans nav-text'>Features 
