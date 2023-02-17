@@ -5,30 +5,43 @@ const bunner = require("../../images/Phone.jpg");
 
 export default function Home() {
   return (
-    <div className='flex justify-between top-section nav-text pt-20 px-56'>
+    <div className='bg-gray-100'>
+      <div className='flex justify-between top-section nav-text pt-20 px-56'>
       <div>
-        <span className='text-4xl font-bold'>Book Keeping</span><br/> 
-           <span className='text-4xl font-bold'>Made Easy.</span><br/>
-            <span className='font-semibold text-3xl'>An easy way to keep your<br/>
-             business finances on track</span>
-             <div className='flex gap-2 mt-2'>
+        <div className='mt-20'>
+            <span className='text-4xl font-bold'>Book Keeping</span><br/> 
+            <span className='text-4xl font-bold'>Made Easy.</span><br/>
+              <span className='font-semibold text-3xl'>An easy way to keep your<br/>
+              business finances on track</span>
+              <div className='flex gap-2 mt-2'>
+        </div>
+        
 
-                <button className='bg-black px-4 py-4 rounded-lg text-white  relative '>
-                  <span className='absolute left-0 bottom-3 text-4xl'>{<AiFillApple/>}</span><span className='text-sm'>Download on app</span><br/>
+                <button className='bg-black px-5 py-2 rounded-lg text-white  relative '>
+                  <span className='absolute left-0 bottom-2 text-4xl'>{<AiFillApple/>}</span><span className='text-sm'>Download on app</span><br/>
                   App store
 
                 </button>
-                <button className='bg-black px-5 py-2 rounded-lg text-white relative'>
+                <button className='bg-black px-5 py-2 rounded-lg text-white relative ml-2'>
                   <span className='absolute left-0.5 bottom-5'>{<FaGooglePlay/>}</span><span className='text-sm'>GET IT ON</span><br/>
                   Google play
 
                 </button>
              </div>
              
-      </div>
-       
+        </div>
+        
+           <img src={bunner} alt="phone pictures" />
+        </div>
+     <div>
+       <div className='text-center text-4xl font-semibold nav-text mt-36 mb-11'>What you can do with wise Ledger</div>
+     </div>
+     <div className='bg-white rounded-2xl w-80 h-64 mx-auto mb-28'>
+       <h6 className='text-3xl font-semibold nav-text mt-9'>Simplified Acounting</h6>
+       <p className='text-base font-normal text-blue-600/75 font-Inter'>Managing your account is easier than before with WiseLedger. Record your sales and expenses in a few easy steps.</p>
+     </div>
       
-      <img src={bunner} alt="phone pictures" />
     </div>
+    
   )
 }
