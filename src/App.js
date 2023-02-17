@@ -13,7 +13,6 @@ function App() {
         <Routes>
           <Route path='/home' element={<Home/>}/>
         </Routes>
-        This is the main section
       </main>
      
 
