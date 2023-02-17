@@ -1,3 +1,4 @@
+import AboutWiseLeger from '../AboutWiseLeger';
 import {FaGooglePlay} from 'react-icons/fa'
 import {AiFillApple} from 'react-icons/ai'
 import React from 'react'
@@ -31,15 +32,10 @@ export default function Home() {
              
         </div>
         
-           <img src={bunner} alt="phone pictures" />
+           <img className='mb-4'src={bunner} alt="phone pictures" />
         </div>
-     <div>
-       <div className='text-center text-4xl font-semibold nav-text mt-36 mb-11'>What you can do with wise Ledger</div>
-     </div>
-     <div className='bg-white rounded-2xl w-80 h-64 mx-auto mb-28'>
-       <h6 className='text-3xl font-semibold nav-text mt-9'>Simplified Acounting</h6>
-       <p className='text-base font-normal text-blue-600/75 font-Inter'>Managing your account is easier than before with WiseLedger. Record your sales and expenses in a few easy steps.</p>
-     </div>
+        <AboutWiseLeger/>
+     
       
     </div>
     
