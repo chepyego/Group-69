@@ -1,4 +1,4 @@
-
+import MobilePlaystore from './MobilePlaystore';
 import {Link} from 'react-router-dom'
 import React from 'react'
 const Logo = require("../images/Group 9.png");
@@ -7,7 +7,7 @@ const Logo = require("../images/Group 9.png");
 function Footer() {
   return (
     <div className='primary-back'>
-        <ul className='flex justify-center py-28'>
+        <ul className='flex justify-center pt-28'>
             <div className='mr-16'>
               <img  src={Logo} alt="logo"/>
         
@@ -32,6 +32,10 @@ function Footer() {
 
             </div>
         </ul>
+        <div className='flex justify-center align-top pb-28 mt-8 ml-20'>
+          <MobilePlaystore/>
+
+        </div>
       
     </div>
   )
