@@ -22,3 +22,17 @@
    }
    .footer-bg-color{
     background: #E6EAFF;   }
+
+    @media screen and(max-width: 600px){
+        .header-nav{
+            display: block;
+            background-color: red;
+        }
+        
+        .open{
+            display: block;
+        }
+        
+    }
+
+    
