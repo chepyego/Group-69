@@ -12,7 +12,7 @@ export default function CustomersView() {
   return (
     <div>
         <div>
-            <h6 className='primary-text-color text-4xl font-semibold text-center mt-36'>What our users are saying</h6>
+            <h6 className='primary-text-color text-xl md:text-4xl font-semibold text-center mt-36'>What our users are saying</h6>
              <div className='overflow-x-scroll flex-1 md:flex mx-20 mt-16'>
                 <div>
                     <p className='secondary-text-color text-xl'>I came across WiseLedger at the right time whenI had issues balancing my ledger. With WiseLedger,my business finance management has gotten better.</p>

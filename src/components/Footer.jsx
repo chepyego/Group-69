@@ -7,7 +7,7 @@ function Footer() {
   return (
     <div className='primary-back'>
         <ul className='flex justify-center pt-28 '>
-            <div className='md:mr-16 mr-2'>
+            <div className=' md:mr-16 mr-2'>
               <img  src={Logo} alt="logo"/>
         
             </div>
