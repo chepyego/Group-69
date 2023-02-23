@@ -18,7 +18,8 @@ function ProductsShow() {
         <h1>Products</h1>
         {data.map(product =>(
             <li key={product.id}>
-              <img src={product.image_url}/>
+
+              <img className="w-1/2"src={product.image_url}/>
               {product.title}
             {product.price}
             </li>

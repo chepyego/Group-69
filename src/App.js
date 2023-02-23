@@ -1,8 +1,10 @@
 import {BrowserRouter as Router,Routes,Route,} from "react-router-dom";
 import './App.css';
+import AboutWiseLeger from "./components/AboutWiseLeger";
 // import 'daisyui/dist/daisyui.css'
 import Footer from "./components/Footer";
 import Header from './components/Header';
+import HowWiseLegerHelp from "./components/HowWiseLegerHelp";
 import Home from "./components/pages/Home";
 import ProductsShow from "./components/ProductsShow";
 
@@ -15,6 +17,8 @@ function App() {
         <Routes>
           <Route path='/' element={<Home/>}/>
           <Route path='/blog' element={<ProductsShow/>}/>
+          <Route path='/about' element={<AboutWiseLeger/>}/>
+          <Route path='/features' element={<HowWiseLegerHelp/>}/>
         </Routes>
       </main>
      

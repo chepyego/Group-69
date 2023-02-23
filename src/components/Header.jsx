@@ -1,9 +1,7 @@
 import {GiHamburgerMenu} from 'react-icons/gi'
 import { useState } from 'react'
 import '../styles/Header.css'
-import {MdArrowDropDown} from 'react-icons/md'
 import {Link} from 'react-router-dom'
-import propTypes from 'prop-types'
 import React from 'react'
 const Logo = require("../images/Group 9.png");
 
@@ -15,27 +13,30 @@ export default function Header() {
   }
 
   return (
-     <nav className='navbar bg-gray-100 shadow-lg  w-screen relative py-6'>
+     <nav className='navbar bg-gray-100 shadow-lg  w-screen relative md:py-6 py-0'>
       <div class="container mx-auto">
-        <button type="button" className=' absolute right-1 text-2xl md:invisible bottom-6'onClick={toggleNav}>
+        <button type="button" className=' absolute top-8 text-2xl md:invisible right-2'onClick={toggleNav}>
          <GiHamburgerMenu />
 
         </button>
-           <Link to='/'><img  className="absolute bottom-0 "src={Logo} alt="logo" /></Link>
+           <Link to='/'><img  className="md:absolute bottom-0 "src={Logo} alt="logo" /></Link>
          <div className={isOpen? 'visible md:invisible': 'md:visible invisible'}>
-            <ul className=' block my-auto md:my-0 md:flex justify-end align-center gap-x-6  '>
+            <ul className='  my-auto md:my-0 md:flex justify-end align-center md:gap-x-6  '>
               <li>
-                <Link to='/features' className='font-bold font-sans nav-text hover:bg-blue-700'>Features 
+                <Link to='/features' className='font-bold font-sans nav-text hover:border-b-2 hover:border-blue-700'>Features 
                 </Link>
               </li>
               <li>
-                <Link to='/about' className='font-bold font-sans nav-text hover:underline-gray'>About</Link>
+                <Link to='/about' className='font-bold font-sans nav-text hover:border-b-2 hover:border-blue-700 '>About</Link>
               </li>
               <li>
-                <Link to='/blog' className='font-bold font-sans nav-text  '>Blog</Link>
+                <Link to='/contact_us' className='font-bold font-sans nav-text hover:border-b-2 hover:border-blue-700 '>Contact us</Link>
               </li>
-              <li className=' font-sans font-bold py-2.5 px-8 nav-button text-white  rounded-lg'>
-                <Link to=''>Get App</Link>
+              <li>
+                <Link to='/blog' className='font-bold font-sans nav-text hover:border-b-2 hover:border-blue-700 '>Blog</Link>
+              </li>
+              <li className='max-w-fit max-h-fit font-sans font-bold md:py-2.5 md:px-8  nav-button text-white  rounded-lg hover:bg-blue-600 '>
+                <Link to=''>SIGN UP/ LOGIN</Link>
               </li>
             </ul>
 

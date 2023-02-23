@@ -9,13 +9,13 @@ const bunner = require("../../images/Phone.jpg");
 export default function Home() {
   return (
     <div className='bg-gray-100'>
-      <div className='flex justify-between top-section nav-text pt-20 px-56'>
+      <div className='  md:flex justify-between top-section nav-text pt-20 md:px-56'>
       <div>
-        <div className='mt-20'>
-            <span className='text-4xl font-bold'>Book Keeping</span><br/> 
-            <span className='text-4xl font-bold'>Made Easy.</span><br/>
-              <span className='font-semibold text-3xl'>An easy way to keep your<br/>
-              business finances on track</span>
+        <div className='mt-20 ml-9 md:ml-0'>
+            <span className='text-3xl md:text-4xl font-bold'>Accounting and<br></br> Book Keeping</span><br/> 
+            <span className='text-3xl md:text-4xl font-bold'>Made Easy.</span><br/>
+              <span className='font-semibold text-3xl '>Smart solution for <br/>
+              your business needs </span>
               <div className='flex gap-2 mt-2'>
         </div>
         
@@ -34,10 +34,10 @@ export default function Home() {
              
         </div>
         
-           <img className='mb-4'src={bunner} alt="phone pictures" />
+           <img className='mb-4 md:visible invisible'src={bunner} alt="phone pictures" />
         </div>
         <AboutWiseLeger/>
-        <HowWiseLegerHelp/>
+        <div className='mt-24'><HowWiseLegerHelp/></div>
         <CustomersView/>
         
      
