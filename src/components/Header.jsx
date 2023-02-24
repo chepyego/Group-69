@@ -14,7 +14,7 @@ export default function Header() {
 
   return (
      <nav className='navbar bg-gray-100 shadow-lg  w-screen relative md:py-6 py-0'>
-      <div class="container mx-auto">
+      <div className="container mx-auto">
         <button type="button" className=' absolute top-14 right-6 text-2xl md:invisible 'onClick={toggleNav}>
          <GiHamburgerMenu />
 
