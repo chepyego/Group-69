@@ -18,6 +18,7 @@ function Consultants() {
   return (
     <div>
         <h1 className='text-2xl primary-text-color text-center font-semibold mt-14 '>Meet our consultants</h1>
+        <h2 className='primary-text-color text-center'>Page loading......</h2>
          <div className='flex justify-center gap-x-8 mt-14 '>
 
          {consultant.map(person =>(

@@ -20,7 +20,7 @@ export default function Home() {
         </div>
         
 
-                <button className='bg-black px-5 py-2 rounded-lg text-white  relative '>
+                <button className='bg-black px-5 py-2 rounded-lg text-white  relative md:mr-0 mr-8 '>
                   <span className='absolute left-0 bottom-2 text-4xl'>{<AiFillApple/>}</span><span className='text-sm'>Download on app</span><br/>
                   App store
 

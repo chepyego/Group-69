@@ -15,14 +15,14 @@ export default function Header() {
   return (
      <nav className='navbar bg-gray-100 shadow-lg  w-screen relative md:py-6 py-0'>
       <div className="container mx-auto">
-        <button type="button" className=' absolute top-14 right-6 text-2xl md:invisible 'onClick={toggleNav}>
+        <button type="button" className=' absolute top-10 right-6 text-2xl md:invisible 'onClick={toggleNav}>
          <GiHamburgerMenu />
 
         </button>
            <Link to='/'><img  className=" md:absolute bottom-0  "src={Logo} alt="logo" /></Link>
          <div className={isOpen? 'visible md:invisible': 'md:visible invisible'}>
             <ul className='  my-auto md:my-0 md:flex justify-end align-center md:gap-x-6  '>
-              <li>
+              <li id="features">
                 <Link to='/features' className='font-bold font-sans nav-text hover:border-b-2 hover:border-blue-700'>Features 
                 </Link>
               </li>
