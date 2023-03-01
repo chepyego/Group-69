@@ -5,11 +5,11 @@ import Consultants from "./components/Consultants";
 import ContactUs from "./components/ContactUs";
 // import 'daisyui/dist/daisyui.css'
 import Footer from "./components/Footer";
-import FormForProduct from "./components/FormForProduct";
+import FormForSales from "./components/FormForSales";
 import Header from './components/Header';
 import HowWiseLegerHelp from "./components/HowWiseLegerHelp";
 import Home from "./components/pages/Home";
-import ProductsShow from "./components/ProductsShow";
+import ProductsShow from "./components/SalesShow";
 
 
 function App() {
@@ -22,7 +22,7 @@ function App() {
           <Route path='/blog' element={<Consultants/>}/>
           <Route path='/about' element={<AboutWiseLeger/>}/>
           <Route path='/features' element={<HowWiseLegerHelp/>}/>
-          <Route path ='/form_for_product' element={<FormForProduct/>}/>
+          <Route path ='/form_for_product' element={<FormForSales/>}/>
           <Route path='products_show' element={<ProductsShow/>}/>
           <Route path='/contact_us' element={<ContactUs/>}/>
         </Routes>
