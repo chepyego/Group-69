@@ -37,7 +37,7 @@ function FormForProduct() {
           setTotalAmount("");
           setReceived("");
           setBalanceDue("")
-          setMessage("Product created succesfully");
+          setMessage("Sales created succesfully");
         }else{
           setMessage("Some errors Occured")
         }
