@@ -33,7 +33,7 @@ function Footer() {
 
             </div>
         </ul>
-        <div className='flex justify-center align-top md:pb-28 pb-96  mt-8 ml-20'>
+        <div className=' flex-1 flex justify-center align-top md:pb-28 pb-20  mt-8 md:ml-20 ml-0'>
           <MobilePlaystore/>
 
         </div>

@@ -62,10 +62,12 @@ export default function AboutWiseLeger() {
               
               </p>
             </div>
-            <div className='hover:bg-gray-100 shadow-2xl bg-white rounded-2xl w-96 max-w-fit  h-64 mx-auto md:mb-28 mb-6'>
+            <div className='hover:bg-gray-100 shadow-2xl bg-white rounded-2xl w-96 max-w-fit max-h-fit h-64 mx-auto md:mb-28 mb-6'>
               <h6 className=' text-lg md:text-3xl font-semibold nav-text pt-6 md:pl-4 pl-10'>Seamless Account Intergration</h6>
               <p className=' m-4 justify-center align-center text-base font-normal text-blue-600/75 font-Inter'>Get your account integrated in just few clicks..</p>
-              <button className='ml-14 md:ml-4 nav-button rounded-lg text-white py-2.5 px-8'>Learn More</button>
+              <p className=' hidden truncate trial hover:text-clip'>Your can easily connect your WiseLedger account to other software applications through APIs(Application Programming Interface) to boost productivity and provide new insights to yourbusiness processes.</p>
+            
+              <button className='ml-14 md:ml-4 nav-button rounded-lg text-white py-2.5 px-8 hover:visible'>Learn More</button>
             </div>
             <div className=' hover:bg-gray-100 shadow-2xl bg-white rounded-2xl w-96 max-w-fit h-64 mx-auto md:mb-28 mb-6'>
               <h6 className='text-lg md:text-3xl font-semibold nav-text pt-6 md:pl-4 pl-10'>Book a section with consuitant</h6>
