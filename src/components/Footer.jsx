@@ -38,7 +38,7 @@ function Footer() {
           <MobilePlaystore/>
 
         </div>
-        <div className='text-center pb-4 text-xl text-gray-700 font-normal'>copy right : {aYear} designed by Wise Ledger team</div>
+        <div className='text-center pb-4  text-sm md:text-xl text-gray-700 font-normal'>copy right : {aYear} designed by Wise Ledger team</div>
       
     </div>
   )
